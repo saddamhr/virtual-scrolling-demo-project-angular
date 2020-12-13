@@ -1,0 +1,19 @@
+cdk-virtual-scroll-viewport::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+ cdk-virtual-scroll-viewport {
+   -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow: -moz-scrollbars-none !important;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
